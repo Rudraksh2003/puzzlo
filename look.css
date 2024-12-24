@@ -1,0 +1,51 @@
+
+
+nav {
+    background-color: rgb(217, 171, 55);
+    text-align: center;
+
+}
+.logo{
+    height: 100px;
+     width: 100px;
+     text-align: center;
+     display: block;
+     
+}
+body {
+    background-color: grey;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#puzzleContainer {
+    background-color: #f0f0f0;
+    position: relative;
+    margin: 20px auto;
+    height: 480px;
+    width: 480px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(4, 120px);
+}
+
+#piecesContainer {
+    margin: 20px auto;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.img {
+    height: 120px;
+    width: 120px;
+    cursor: grab;
+    border: 1px solid black;
+}
